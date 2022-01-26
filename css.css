@@ -87,6 +87,7 @@
 
         #biographyinfo {
             color: white;
+
         }
 
         #biography {
@@ -114,5 +115,17 @@
             #posts {
                 flex-direction: column;
                 width: 100%;
+            }
+
+            #biographyinfo{
+                padding: 50px;
+            } 
+
+            #img-caption {
+                padding: 80px;
+            }
+
+            #tribute-info {
+                padding: 40px;
             }
         }
