@@ -2,4 +2,4 @@
 
 [View Live Version Here](https://whitney-houston.vercel.app)
 
-![SamplePhoto](001.PNG)
+![SamplePhoto](Web-Design-Mockup-Landscape.png)
