@@ -1,4 +1,3 @@
-
         body {
             background-color: white;
         }
@@ -22,18 +21,26 @@
             color: white;
         }
 
-        #posts {
+        .recentPosts {
             display: flex;
             justify-content: space-evenly;
+            flex-direction: column;
+            padding: 1rem 0 0 0;
+        }
+
+        #posts {
+            display: flex;
+            justify-content: space-between;
+            margin: 3rem;
+        }
+        
+        #posts p {
+            width: 25rem;
+            margin: auto;
+            text-align: justify;
         }
 
         #flex-right {
-            text-align: center;
-            width: 100%;
-            height: 200px;
-        }
-
-        #flex-right1 {
             text-align: center;
             width: 100%;
         }
@@ -41,13 +48,6 @@
         #flex-left {
             text-align: center;
             width: 100%;
-            height: 200px;
-        }
-
-        #flex-left1 {
-            text-align: center;
-            width: 100%;
-            height: 200px;
         }
 
         #title {
@@ -67,10 +67,12 @@
         }
 
         #img-caption {
-            font-size: 20px;
+            font-size: 1.3rem;
             color: white;
             text-align: center;
-
+            width: 55%;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         #image {
@@ -92,18 +94,18 @@
         #bio {
             background: black;
             text-align: center;
-
         }
 
         #biographyinfo {
             color: white;
-
+            font-size: 2ch;
+            padding: 0 10rem;
         }
 
         #biography {
             text-align: center; 
             font-family: 'Abril Fatface', sans-serif; 
-            font-size: 30px;
+            font-size: 2rem;
             color: white;
         }
 
@@ -111,8 +113,7 @@
             background: white;
             color: black;
             border-radius: 20px;
-            width: 100px;
-            height: 30px;
+            padding: 0.5rem;
             border: none;
         }
 
@@ -124,35 +125,24 @@
         @media screen and (max-width:800px) {     
             #posts {
                 flex-direction: column;
-                width: 100%;
-                height: 400px;
-                padding: 50px;
+                padding: 2rem;
+                margin: 0;
             }
 
-            #biographyinfo{
-                padding: 50px;
-            } 
+            #biographyinfo {
+                color: white;
+                font-size: 2ch;
+                padding: 0 3rem;
+            }
 
             #img-caption {
-                padding: 80px;
-            }
-
-            #tribute-info {
-                padding: 40px;
-            }
-
-            #flex-right1 {
+                font-size: 1.3rem;
+                color: white;
                 text-align: center;
+                margin: 0 auto;
                 width: 100%;
-                position: relative;
-                top: -100px;
+                padding: 3rem;
             }
-
-            #flex-left1 {
-                text-align: center;
-                width: 100%;
-                position: relative;
-                top: -80px;
-            }
-            
         }
+
+        
