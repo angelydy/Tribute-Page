@@ -2,4 +2,4 @@
 
 [View Live Version Here](https://whitney-houston.vercel.app)
 
-![SamplePhoto](004.png)
+![SamplePhoto](/assets/004.png)
